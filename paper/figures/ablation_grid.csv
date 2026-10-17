@@ -1,3 +1,0 @@
-,None,Additive,Multiplicative,Self-attn
-LSTM,0.8855,0.8898,0.8872,0.8876
-BiLSTM,0.8939,0.9015,0.8940,0.8971
