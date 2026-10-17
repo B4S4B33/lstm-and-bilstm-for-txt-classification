@@ -1,0 +1,42 @@
+[
+  {
+    "model": "bilstm",
+    "n_runs": 3,
+    "n_params": 2085508,
+    "accuracy_mean": 0.8939035087719298,
+    "accuracy_std": 0.00815824843602224,
+    "macro_f1_mean": 0.893561154867037,
+    "macro_f1_std": 0.008203047709832606,
+    "avg_epoch_time": 85.1241589425102
+  },
+  {
+    "model": "bilstm_additive",
+    "n_runs": 3,
+    "n_params": 2089668,
+    "accuracy_mean": 0.9015350877192981,
+    "accuracy_std": 0.002596254138061173,
+    "macro_f1_mean": 0.9012036580649311,
+    "macro_f1_std": 0.002635382570322261,
+    "avg_epoch_time": 87.5442659514291
+  },
+  {
+    "model": "bilstm_multiplicative",
+    "n_runs": 3,
+    "n_params": 2102020,
+    "accuracy_mean": 0.8939912280701755,
+    "accuracy_std": 0.0005933223358978048,
+    "macro_f1_mean": 0.8936723324708143,
+    "macro_f1_std": 0.00051227690830051,
+    "avg_epoch_time": 94.49429225921631
+  },
+  {
+    "model": "bilstm_selfattn",
+    "n_runs": 3,
+    "n_params": 2102020,
+    "accuracy_mean": 0.8971052631578947,
+    "accuracy_std": 0.002401090472486102,
+    "macro_f1_mean": 0.8967402342214167,
+    "macro_f1_std": 0.002505530546355603,
+    "avg_epoch_time": 97.65877539770945
+  }
+]
